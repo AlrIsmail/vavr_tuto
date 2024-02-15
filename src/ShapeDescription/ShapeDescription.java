@@ -2,29 +2,29 @@ package ShapeDescription;
 
 public class ShapeDescription {
 
-    static class Shape {}
+    public static class Shape {}
 
-    static class Circle extends Shape {
+    public static class Circle extends Shape {
         double radius;
 
-        Circle(double radius) {
+        public Circle(double radius) {
             this.radius = radius;
         }
     }
 
-    static class Square extends Shape {
+    public static class Square extends Shape {
         double side;
 
-        Square(double side) {
+        public Square(double side) {
             this.side = side;
         }
     }
 
-    static class Triangle extends Shape {
+    public static class Triangle extends Shape {
         double base;
         double height;
 
-        Triangle(double base, double height) {
+        public Triangle(double base, double height) {
             this.base = base;
             this.height = height;
         }

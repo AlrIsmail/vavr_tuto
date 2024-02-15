@@ -9,14 +9,17 @@ import io.vavr.control.Option;
 public class ListProcessor {
 
     // Définir les fonctions addOne, square et isEven ici
-    public static Function1<Integer, Integer> addOne = i -> i + 1;
-    public static Function1<Integer, Integer> square = i -> i * i;
-    public static Function1<Integer, Boolean> isEven = i -> i % 2 == 0;
+	// addOne..
+	public static Function1<Integer, Integer> addOne = null;
+	// square..
 
+	// isEven..
+	
+	
     public static List<Object> processList(List<Integer> inputList) {
-        // Implémenter la composition des fonctions et le levage ici
-        Function1<Integer, Integer> addOneAndSquare = addOne.andThen(square);
-        Function1<Integer, Option<Boolean>> isEvenLifted = Function1.lift(isEven);
+        // Implémenter la composition des fonctions et le levage ici ...
+        Function1<Integer, Integer> addOneAndSquare = null;
+        Function1<Integer, Option<Boolean>> isEvenLifted = Function1.lift(null);
 
         List<Object> resultList = List.of(
             inputList.map(addOne),
