@@ -1,10 +1,6 @@
-package tests;
+package ShapeDescription;
 
 import org.junit.jupiter.api.Test;
-
-import ShapeDescription.ShapeDescription;
-import ShapeDescription.ShapeDescription.Circle;
-import ShapeDescription.ShapeDescription.Shape;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

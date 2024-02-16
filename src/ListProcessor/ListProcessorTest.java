@@ -1,9 +1,8 @@
-package tests;
+package ListProcessor;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import ListProcessor.ListProcessor;
 import io.vavr.collection.List;
 import io.vavr.control.Option;
 
