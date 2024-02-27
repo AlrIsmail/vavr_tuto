@@ -17,7 +17,7 @@ public class ListProcessor {
 	
 	
     public static List<Object> processList(List<Integer> inputList) {
-        // Implémenter la composition des fonctions et le levage ici ...
+        // Implémenter la composition des fonctions et le levage ici (remplacer null)...
         Function1<Integer, Integer> addOneAndSquare = null;
         Function1<Integer, Option<Boolean>> isEvenLifted = Function1.lift(null);
 

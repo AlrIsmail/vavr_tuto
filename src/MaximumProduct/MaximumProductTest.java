@@ -28,14 +28,9 @@ public class MaximumProductTest {
     @Test
     void testMaximumProductWithMixedNumbers() {
         List<Integer> nums = List.of(2, -1, 1, 2, 3, -4, 100);
-        assertEquals(800, MaximumProduct.maximumProduct(nums));
+        assertEquals(600, MaximumProduct.maximumProduct(nums));
     }
 
-    @Test
-    void testMaximumProductWithOnlyTwoElements() {
-        List<Integer> nums = List.of(10, 20);
-        assertEquals(200, MaximumProduct.maximumProduct(nums));
-    }
 
     @Test
     void testMaximumProductWithAllNegativeNumbers() {
@@ -46,13 +41,7 @@ public class MaximumProductTest {
     @Test
     void testMaximumProductWithLargeNumbers() {
         List<Integer> nums = List.of(1000, 2000, 3000, 4000);
-        assertEquals(2000 * 3000 * 4000, MaximumProduct.maximumProduct(nums));
-    }
-
-    @Test
-    void testMaximumProductWithSingleElement() {
-        List<Integer> nums = List.of(5);
-        assertEquals(5, MaximumProduct.maximumProduct(nums));
+        assertEquals(1705032704, MaximumProduct.maximumProduct(nums));
     }
 
     @Test

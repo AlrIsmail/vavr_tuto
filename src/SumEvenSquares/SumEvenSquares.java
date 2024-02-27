@@ -17,7 +17,7 @@ public class SumEvenSquares {
     }
 
     public static <T extends Number> Either<String, Try<Integer>> sumOfEvenSquares(T[] numbers) {
-    	// Implementer la fonction ...
+    	// Implémentez la fonction ici pour retourner la somme des carrés des paires...
         return Either.left("Aucun nombre pair trouvé");
     }
 }
